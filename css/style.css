@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab|Source+Sans+Pro:400,400i");
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .navbar-brand {
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  color: #fed136;
+}
+
+header li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
