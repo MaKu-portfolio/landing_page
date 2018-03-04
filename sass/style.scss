@@ -2,6 +2,7 @@
 
 $yellow: #fed136;
 $basic-font: 'Montserrat', sans-serif;
+$awsome-font: 'Source Sans Pro', sans-serif;
 
 .container {
     width: 100%;
@@ -11,7 +12,7 @@ $basic-font: 'Montserrat', sans-serif;
 header {
     .navbar-brand {
         font-size: 26px;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $awsome-font;
         font-style: italic;
         color: $yellow;
     }
@@ -20,3 +21,32 @@ header {
         font-size: 14px;
     }
 }
+.home {
+    background-image: url("images/pexels-photo-531321.jpeg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    h1 {
+        font-family: $awsome-font;
+        font-size: 40px;
+        font-style: italic;
+    }
+    h2 {
+        font-family: $basic-font;
+        font-size: 75px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    button {
+        background-color: $yellow;
+        width: 240px;
+        border-color: $yellow;
+    }
+        &hover:      
+            background-color: $yellow;
+            opacity: 0.8;  
+}
+            
+    
+}
+

@@ -7,7 +7,7 @@
 
 header .navbar-brand {
   font-size: 26px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
   color: #fed136;
 }
@@ -15,5 +15,30 @@ header .navbar-brand {
 header li {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+}
+
+.home {
+  background: url("images/home-image.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.home h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.home h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home button {
+  background-color: #fed136;
+  width: 240px;
+  border-color: #fed136;
 }
 /*# sourceMappingURL=style.css.map */
